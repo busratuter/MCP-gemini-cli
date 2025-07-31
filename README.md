@@ -4,6 +4,8 @@ This project demonstrates how a Figma design can be transformed into a live webs
 
 **Live Demo:** [https://glittery-klepon-b27eda.netlify.app](https://glittery-klepon-b27eda.netlify.app)
 
+**Figma Design:** [https://www.figma.com/community/file/1362417348207288000/landing-page-design-for-creatives-showcase-your-art-in-style](https://www.figma.com/community/file/1362417348207288000/landing-page-design-for-creatives-showcase-your-art-in-style)
+
 ## About The Project
 
 This work aims to merge the design, code generation, version control, and deployment processes into a single, fluid, and automated workflow. Thanks to the powerful capabilities of the Gemini CLI, it showcases the transformation of an idea from design to a live product without the need for manual intervention.
