@@ -1,0 +1,492 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F6FDFF;
+    color: #073141;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #F6FDFF;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-family: 'Barlow', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #073141;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.login-btn {
+    background-color: #1D7293;
+    color: #FFFFFF;
+    border: none;
+    padding: 14px 41px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 214px;
+}
+
+.hero-content h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.36;
+    width: 805px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.primary-btn {
+    background-color: #1D7293;
+    color: #FFFFFF;
+    border: none;
+    padding: 14px 41px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.secondary-btn {
+    background-color: #F6FDFF;
+    color: #1D7293;
+    border: 1px solid #1D7293;
+    padding: 14px 41px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero-image img {
+    width: 547px;
+    height: 569.19px;
+}
+
+#about {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#about h2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    color: #1D7293;
+}
+
+#about p {
+    font-size: 20px;
+    line-height: 1.21;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 40px auto 0;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.stat-item p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.counter {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#featured-artwork {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#featured-artwork h2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    color: #1D7293;
+}
+
+#featured-artwork > p {
+    font-size: 18px;
+    line-height: 1.21;
+    width: 1000px;
+    margin: 20px auto 40px;
+}
+
+#featured-artwork .artwork-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 30px;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#artist-spotlight .artwork-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.artwork-card {
+    background-color: #FFFFFF;
+    border-radius: 0 0 30px 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.artwork-card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.artwork-info {
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.artist-info {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.artist-info img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.artwork-stats {
+    display: flex;
+    gap: 10px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.artwork-stats .stat img {
+    width: 16px;
+    height: 16px;
+}
+
+#artist-spotlight {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#artist-spotlight h2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    color: #1D7293;
+}
+
+#join-the-community {
+    background-color: #1D7293;
+    color: #FFFFFF;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.community-content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.community-content h2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
+
+.community-content p {
+    font-size: 18px;
+    line-height: 1.21;
+    margin: 20px 0 40px;
+}
+
+#resources-and-tutorials {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#resources-and-tutorials h2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    color: #1D7293;
+}
+
+#resources-and-tutorials > p {
+    font-size: 18px;
+    line-height: 1.21;
+    width: 1000px;
+    margin: 20px auto 40px;
+}
+
+.tutorials-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.tutorial-card {
+    background-color: rgba(29, 114, 147, 0.1);
+    border-radius: 0 30px 0 30px;
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.tutorial-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 0 30px 0 30px;
+}
+
+.tutorial-content h3 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.tutorial-content p {
+    font-size: 18px;
+    line-height: 1.21;
+}
+
+#testimonials {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#testimonials h2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    color: #1D7293;
+}
+
+#testimonials > p {
+    font-size: 18px;
+    line-height: 1.21;
+    width: 1000px;
+    margin: 20px auto 40px;
+}
+
+.testimonials-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 40px;
+}
+
+.testimonial-card {
+    background-color: #E0EFF4;
+    border-radius: 0 30px 0 30px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    max-width: 550px;
+}
+
+.testimonial-card img {
+    width: 200px;
+    height: 260px;
+    border-radius: 0 30px 0 30px;
+}
+
+.testimonial-content h3 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.testimonial-content p {
+    font-size: 18px;
+    line-height: 1.21;
+}
+
+#awards {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#awards h2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    color: #1D7293;
+}
+
+#awards p {
+    font-size: 20px;
+    line-height: 1.21;
+    width: 1000px;
+    margin: 20px auto 40px;
+}
+
+.awards-grid {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#trusted-by {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#trusted-by h2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    color: #1D7293;
+}
+
+#trusted-by p {
+    font-size: 18px;
+    line-height: 1.21;
+    width: 1000px;
+    margin: 20px auto 40px;
+}
+
+.trusted-by-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.trusted-by-grid img {
+    max-width: 200px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 214px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.footer-logo span {
+    font-family: 'Barlow', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.footer-links {
+    display: flex;
+    gap: 166px;
+}
+
+.footer-column h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #062A44;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 12px;
+}
+
+.footer-column li {
+    margin-bottom: 4px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #325168;
+    font-size: 14px;
+}
